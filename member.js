@@ -1,4 +1,5 @@
 
+
 function skillMembers() {
   var members = [
     { name: 'John', age: 30 },
@@ -7,11 +8,6 @@ function skillMembers() {
   ];
 
   return {
-    members: members,
-    getMember: function(name) {
-      return members.find(function(member) {
-        return member.name === name;
-      });
-    }
+    
   };
 }
